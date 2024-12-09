@@ -1,3 +1,6 @@
+# This is only a small change from OpenAI to Groq's API to allow to use free and fast AI (LLama mostly).
+You still will need an Groq API Key, but it is free so it's okay.
+
 <p align="center"><a
 href="https://www.flaticon.com/free-icons/mortarboard" target="_blank" rel="noopener noreferrer"
 title="Mortarboard icons created by itim2101 - Flaticon" ><img src="./extension/icon.png" alt="Mortarboard icons created by itim2101 - Flaticon" width="150" style="display:block; margin:auto;"></a></p>
