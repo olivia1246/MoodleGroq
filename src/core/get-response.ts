@@ -21,7 +21,7 @@ async function getChatGPTResponse(
   // Including the instructions to the AI, the images as base64 if needed, the question and the past conversation if history is set to true
   const contentHandler = await getContentWithHistory(config, questionElement, question);
 
-  const req = await fetch('https://api.openai.com/v1/chat/completions', {
+  const req = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
